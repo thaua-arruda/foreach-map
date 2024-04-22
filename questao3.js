@@ -6,8 +6,8 @@ maior número em um array de números?
 let array = [1, 2, 3, 4, 5, 6];
 let maiorNumero = 0;
 array.forEach(function(num){
-    if (array > maiorNumero){
-        maiorNumero = array
+    if (num > maiorNumero){
+        maiorNumero = num
     }
 })
 console.log(maiorNumero)
